@@ -9,3 +9,5 @@ Each review was placed into a text file corresponding to the year, make and mode
 The reviews were imported into a dataframe with the features “year”, “make”, “model” and “review” using regular expressions to filter out the various delimiters within the text files. Stop words were then filtered out and the reviews were tokenized for each make and model for future analysis.
 
 Various plots, such as sentiment vs. market share plots, word clouds, and plots illustrating average sentiment by make are included.
+
+Cars.zip holds the raw review data, and Hogue_Final_Project.py is the primary script while share_scrape.py creates the market share data.
